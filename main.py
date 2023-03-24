@@ -20,7 +20,7 @@ Welcome To calm guest 30days code gen.
 Contact me on tg @Xbinner2"""
 )
 
-amount = int(input(f"\n{colorama.Fore.BLACK}Amount=> "))
+amount = int(input(f"\n{colorama.Fore.CYAN}Amount=> "))
 
 
 def gen():
@@ -50,7 +50,7 @@ def main():
     for x in range(amount):
         try:
             gen()
-            time.sleep(0.3)
+            time.sleep(0.3) # disable this line if you dont wanna deley chks
         except:
             pass
     print(
